@@ -2,9 +2,8 @@
 
 <h2>👨‍💻 Projects:</h2>
 
-- <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
-
 <h2> 🤳 Connect with me:</h2>
 
-[linkedin]: https://linkedin.com/in/joshmadakor
+[linkedin]: https://ca.linkedin.com/in/david-talson-718834132
+[Instagram]: https://www.instagram.com/dtee.live/?hl=en
+
