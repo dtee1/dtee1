@@ -7,7 +7,6 @@
 <div align=center> `Engineering the future with artificial intelligence.`</div>
  
  <li><i>Currently pursing a Master of Engineering degree at the University of Ottawa</i></li>
-  <li><i>Interested in natural language processing projects</i></li>
 
 <h2>Tech Stack</h2>
 <h4>Programming</h4>
