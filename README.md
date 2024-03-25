@@ -20,8 +20,5 @@
 <h2> 🤳 Connect with me:</h2>
 <div>
   
-[linkedin]: https://ca.linkedin.com/in/david-talson-718834132
-[Instagram]: https://www.instagram.com/dtee.live/?hl=en
-
 </div>
 
