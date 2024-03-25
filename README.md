@@ -1,7 +1,3 @@
-<div align=center> `Engineering the future with artificial intelligence.`</div>
- 
- <li><i>Currently pursing a Master of Engineering degree at the University of Ottawa</i></li>
-
 <h2>Tech Stack</h2>
 <h4>Programming</h4>
 <div><img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" /> 
