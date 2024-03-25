@@ -1,9 +1,3 @@
-<div align=center>
-  
-![image](https://user-images.githubusercontent.com/37641675/233252372-c085ca8c-bd44-4074-8e11-4855a7187db6.png)
-  
-</div>
-
 <div align=center> `Engineering the future with artificial intelligence.`</div>
  
  <li><i>Currently pursing a Master of Engineering degree at the University of Ottawa</i></li>
