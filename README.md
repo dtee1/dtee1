@@ -10,14 +10,6 @@
 <div><img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" /></div>
 <h4>Other Tools</h4>
 <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-
-<h2>👨‍💻 Projects:</h2>
-
-<h2> Statistics </h2>
-
-[![David Talson GitHub stats](https://github-readme-stats.vercel.app/api?username=dtee1)](https://github.com/dtee1/github-readme-stats)
-
-<h2> 🤳 Connect with me:</h2>
 <div>
   
 </div>
