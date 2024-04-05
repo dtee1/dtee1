@@ -1,16 +1,26 @@
-<h2>Tech Stack</h2>
-<h4>Programming</h4>
-<div><img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" /> 
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /></div>
-<h4>Artificial Intelligence</h4>
-<div><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white" /></div>
-<h4>Frameworks</h4>
-<div><img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" /></div>
-<h4>Other Tools</h4>
-<img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-<div>
-  
-</div>
+## Tech Stack
+
+### Skills
+- **Programming Languages:** Python, JavaScript, C++
+- **Artificial Intelligence Frameworks:** PyTorch, TensorFlow, Keras
+- **Web Development:** Vue.js, Flask
+- **Containerization:** Docker
+- **Version Control:** Git
+- **Scripting:** Shell Scripting
+- **Machine Learning:** Machine Learning, Natural Language Processing, Object Detection
+- **Software Development:** REST, Test Automation
+- **Operating Systems:** Linux
+- **Tools:** MATLAB, Simulink, Jenkins, Jira
+
+## Education
+
+- **Master of Engineering**, Concentration in Applied Artificial Intelligence  
+  *University of Ottawa*  
+  January 2022 – April 2024
+
+  *Courses*: Applied Machine Learning, Foundations of Machine Learning for Scientists and Engineers, Multimedia Communications, Enterprise Architecture, Professional Development, Communication and Influence for Engineers, Industry Internship Project, Ethics for Artificial Intelligence
+
+- **Bachelor of Engineering**, Electrical Engineering  
+  *Carleton University*  
+  September 2015 – June 2020
 
