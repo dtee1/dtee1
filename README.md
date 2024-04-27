@@ -1,16 +1,12 @@
 ## Tech Stack
 
 ### Skills
-- **Programming Languages:** Python, JavaScript, C++
+- **Programming:** Python, JavaScript, C++, Shell Scripting
 - **Artificial Intelligence Frameworks:** PyTorch, TensorFlow, Keras
 - **Web Development:** Vue.js, Flask
-- **Containerization:** Docker
-- **Version Control:** Git
-- **Scripting:** Shell Scripting
-- **Machine Learning:** Machine Learning, Natural Language Processing, Object Detection
-- **Software Development:** REST, Test Automation
-- **Operating Systems:** Linux
-- **Tools:** MATLAB, Simulink, Jenkins, Jira
+- **Machine Learning:** Neural Networks, Natural Language Processing, Object Detection
+- **Software Development:** Data Structures and Algorithms, Object Oriented Programming, REST Api, Test Automation
+- **Tools:** Docker, MATLAB, Simulink, Jenkins, Jira, Linux, Git
 
 ## Education
 
