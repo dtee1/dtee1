@@ -1,8 +1,8 @@
-# Hi there, I'm dtee1 👋
+# Hi there, I'm David Talson 👋
 
 ## 🚀 About Me
 
-I'm a **Software Engineer** with a Master's degree in Applied Artificial Intelligence and a Bachelor's in Electrical Engineering. I'm passionate about building intelligent systems and solving complex problems through code and machine learning.
+I'm a **Software Engineer** and I'm passionate about building intelligent systems and solving complex problems through code and machine learning.
 
 ## 🛠️ Tech Stack
 
@@ -32,16 +32,6 @@ I'm a **Software Engineer** with a Master's degree in Applied Artificial Intelli
 - 🤖 **Machine Learning:** Neural Networks, Natural Language Processing, Object Detection
 - 💻 **Software Development:** Data Structures & Algorithms, OOP, REST APIs, Test Automation
 - 🔬 **Engineering Tools:** MATLAB, Simulink
-
-## 🎓 Education
-
-### Master of Engineering in Applied Artificial Intelligence
-**University of Ottawa** | *January 2022 – April 2024*
-
-*Key Courses:* Applied Machine Learning, Foundations of Machine Learning for Scientists and Engineers, Multimedia Communications, Enterprise Architecture, Ethics for AI, Industry Internship Project
-
-### Bachelor of Engineering in Electrical Engineering
-**Carleton University** | *September 2015 – June 2020*
 
 ## 📫 Connect With Me
 
