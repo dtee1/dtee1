@@ -99,6 +99,7 @@ Click the links below to follow these influential figures in AI engineering:
 - **Website**: [anthropic.com](https://www.anthropic.com/)
 - **Focus**: AI Safety, Constitutional AI, LLMs
 - **Notable Projects**: Claude AI assistant
+- **Note**: Anthropic does not have a public GitHub organization
 
 ### DeepMind
 **Google's AI research lab advancing AGI**

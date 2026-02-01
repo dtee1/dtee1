@@ -46,7 +46,6 @@ declare -a RESEARCHERS=(
 declare -a ORGANIZATIONS=(
     "openai"            # OpenAI - Leading AI research company
     "huggingface"       # Hugging Face - AI community and model platform
-    "anthropics"        # Anthropic - AI safety research company (note: may be 'anthropics' or check correct handle)
     "deepmind"          # DeepMind - Google's AI research lab
 )
 
