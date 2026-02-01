@@ -1,25 +1,51 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
+import { Github, Linkedin, Laptop, Mail, Menu, X } from 'lucide-vue-next'
 
-// Portfolio data
-const skills = ref([
-  {
-    category: 'Languages',
-    items: ['Python', 'JavaScript', 'C++', 'Shell']
-  },
-  {
-    category: 'AI/ML',
-    items: ['PyTorch', 'TensorFlow', 'Keras', 'NLP', 'Computer Vision']
-  },
-  {
-    category: 'Web Development',
-    items: ['Vue.js', 'Flask', 'REST APIs']
-  },
-  {
-    category: 'Tools',
-    items: ['Docker', 'Git', 'Linux', 'Jenkins', 'Jira', 'MATLAB', 'Simulink']
+const displayedText = ref('')
+const fullText = ref('David Talson')
+const typingSpeed = 80
+const mobileMenuOpen = ref(false)
+
+const toggleMobileMenu = () => {
+  mobileMenuOpen.value = !mobileMenuOpen.value
+}
+
+const closeMobileMenu = () => {
+  mobileMenuOpen.value = false
+}
+
+onMounted(() => {
+  let index = 0
+  const typeText = () => {
+    if (index < fullText.value.length) {
+      displayedText.value += fullText.value.charAt(index)
+      index++
+      setTimeout(typeText, typingSpeed)
+    }
   }
-])
+  typeText()
+
+  // Scroll animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -100px 0px'
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible')
+      }
+    })
+  }, observerOptions)
+
+  // Observe all sections and cards
+  document.querySelectorAll('.section, .project-card, .about-content').forEach((el) => {
+    el.classList.add('fade-in-scroll')
+    observer.observe(el)
+  })
+})
 
 const projects = ref([
   {
@@ -48,13 +74,28 @@ const projects = ref([
     <!-- Navbar -->
     <nav class="navbar">
       <div class="container navbar-container">
-        <div class="navbar-brand">David Talson</div>
-        <ul class="navbar-menu">
-          <li><a href="#home" class="navbar-link">Home</a></li>
+        <a href="#home" class="navbar-brand">DavidTalson</a>
+        
+        <!-- Desktop Menu -->
+        <ul class="navbar-menu navbar-menu-desktop">
           <li><a href="#about" class="navbar-link">About</a></li>
-          <li><a href="#skills" class="navbar-link">Skills</a></li>
           <li><a href="#projects" class="navbar-link">Projects</a></li>
           <li><a href="#contact" class="navbar-link">Contact</a></li>
+        </ul>
+        
+        <!-- Mobile Burger Button -->
+        <button class="mobile-menu-button" @click="toggleMobileMenu" aria-label="Toggle menu">
+          <Menu v-if="!mobileMenuOpen" :size="28" :stroke-width="2" />
+          <X v-else :size="28" :stroke-width="2" />
+        </button>
+      </div>
+      
+      <!-- Mobile Menu -->
+      <div class="navbar-menu-mobile" :class="{ 'navbar-menu-mobile-open': mobileMenuOpen }">
+        <ul class="navbar-menu-mobile-list">
+          <li><a href="#about" class="navbar-link" @click="closeMobileMenu">About</a></li>
+          <li><a href="#projects" class="navbar-link" @click="closeMobileMenu">Projects</a></li>
+          <li><a href="#contact" class="navbar-link" @click="closeMobileMenu">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -62,11 +103,20 @@ const projects = ref([
     <!-- Hero Section -->
     <section id="home" class="hero">
       <div class="container">
-        <h1 class="hero-title fade-in">Software Engineer | ML Engineer</h1>
+        <h1 class="hero-title fade-in typing-animation">{{ displayedText }}<span class="typing-cursor">_</span></h1>
+        <h4 class="hero-title fade-in">Software Engineer</h4>
         <p class="hero-subtitle fade-in">Building intelligent systems that bridge the gap between human intuition and machine precision</p>
         <div class="hero-cta fade-in">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#projects" class="btn btn-outline"> View Projects</a>
           <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-social fade-in">
+          <a href="https://github.com/dtee1" target="_blank" class="hero-social-icon" aria-label="GitHub">
+            <Github :size="32" :stroke-width="1.5" />
+          </a>
+          <a href="https://linkedin.com/in/your-profile" target="_blank" class="hero-social-icon" aria-label="LinkedIn">
+            <Linkedin :size="32" :stroke-width="1.5" />
+          </a>
         </div>
       </div>
     </section>
@@ -89,27 +139,10 @@ const projects = ref([
       </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-      <div class="container">
-        <h2 class="text-center">&gt; cat ./tech_stack.json</h2>
-        <div class="skills-grid">
-          <div v-for="skillSet in skills" :key="skillSet.category" class="card skill-category">
-            <h4>{{ skillSet.category }}</h4>
-            <div class="skill-tags">
-              <span v-for="skill in skillSet.items" :key="skill" class="skill-tag">
-                {{ skill }}
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Projects Section -->
     <section id="projects" class="section">
       <div class="container">
-        <h2 class="text-center">&gt; ls ./projects</h2>
+        <h3 class="text-center">&gt; ls ./projects</h3>
         <div class="projects-grid">
           <div v-for="project in projects" :key="project.title" class="card project-card">
             <h3 class="project-title">{{ project.title }}</h3>
@@ -120,7 +153,7 @@ const projects = ref([
               </span>
             </div>
             <div class="project-links">
-              <a :href="project.link" class="btn btn-primary">Learn More</a>
+              <a :href="project.link" class="btn btn-outline">Learn More</a>
             </div>
           </div>
         </div>
@@ -131,7 +164,7 @@ const projects = ref([
     <section id="contact" class="section">
       <div class="container">
         <div class="contact-content">
-          <h2>&gt; echo $COLLABORATION_STATUS</h2>
+          <h3>&gt; echo $COLLABORATION_STATUS</h3>
           <p>Let's build something intelligent together.</p>
           <div class="contact-links">
             <a href="https://github.com/dtee1" target="_blank" class="contact-link">
