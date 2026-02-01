@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=Software+Engineer;Machine+Learning+Engineer;AI+Systems+Builder;Building+the+future+with+intelligent+systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=Software+Engineer;Machine+Learning+Engineer;AI+Systems+Builder)](https://git.io/typing-svg)
 
 `> Software Engineer | Problem Solver | AI Enthusiast_`
 
