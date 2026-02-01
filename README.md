@@ -1,39 +1,6 @@
-# Hi there, I'm David Talson 👋
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=Software+Engineer;Machine+Learning+Engineer;AI+Systems+Builder;Building+the+future+with+intelligent+systems)](https://git.io/typing-svg)
 
-## 🚀 About Me
-
-I'm a **Software Engineer** and I'm passionate about building intelligent systems and solving complex problems through code and machine learning.
-
-## 🛠️ Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-### AI/ML Frameworks
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-
-### Web Development
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-### Tools & Technologies
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-
-### Expertise
-- 🤖 **Machine Learning:** Neural Networks, Natural Language Processing, Object Detection
-- 💻 **Software Development:** Data Structures & Algorithms, OOP, REST APIs, Test Automation
-- 🔬 **Engineering Tools:** MATLAB, Simulink
-
-## 📫 Connect With Me
+`> Software Engineer | Problem Solver | AI Enthusiast_`
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dtee1)
 
@@ -43,4 +10,137 @@ I'm a **Software Engineer** and I'm passionate about building intelligent system
 
 ---
 
-💡 *"Building the future, one commit at a time"*
+## `> whoami`
+
+```
+ ____              _     _   _____       _                  
+|  _ \  __ ___   _(_) __| | |_   _|__ _| |___  ___  _ __   
+| | | |/ _` \ \ / / |/ _` |   | |/ _` | / __|/ _ \| '_ \  
+| |_| | (_| |\ V /| | (_| |   | | (_| | \__ \ (_) | | | | 
+|____/ \__,_| \_/ |_|\__,_|   |_|\__,_|_|___/\___/|_| |_| 
+                                              is loading...
+```
+
+I'm a **Software Engineer** with a passion for building intelligent systems and solving complex problems through code and machine learning. My current focus? Creating **AI-powered applications** that leverage machine learning to deliver real-world solutions.
+
+When I'm not writing code or training models, you'll find me exploring new technologies, optimizing algorithms, or diving deep into the latest ML research.
+
+**Current Quest:** Building intelligent systems that bridge the gap between human intuition and machine precision.
+
+---
+
+## `> cat ./tech_stack.json`
+
+```json
+{
+  "languages": ["Python", "JavaScript", "C++", "Shell"],
+  "ai_ml": ["PyTorch", "TensorFlow", "Keras", "NLP", "Computer Vision"],
+  "web_dev": ["Vue.js", "Flask", "REST APIs"],
+  "tools": ["Docker", "Git", "Linux", "Jenkins", "Jira"],
+  "engineering": ["MATLAB", "Simulink"]
+}
+```
+
+### Core Competencies
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+### AI/ML Stack
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+
+### Development Tools
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+---
+
+## `> cat ./expertise.md`
+
+### Technical Skills
+
+| Domain | Technologies |
+|--------|-------------|
+| **Machine Learning** | Neural Networks, NLP, Object Detection |
+| **Software Development** | Data Structures & Algorithms, OOP, REST APIs |
+| **Test Automation** | CI/CD, Jenkins, Test Frameworks |
+| **Engineering Tools** | MATLAB, Simulink |
+
+---
+
+## `> git log --stats`
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dtee1&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9)](https://github.com/dtee1)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dtee1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9)](https://github.com/dtee1)
+
+---
+
+## `> tail -f ./learning.log`
+
+```
++ Advanced Machine Learning architectures
++ Deep Learning optimization techniques  
++ LLM integration and fine-tuning
++ Agentic AI systems and workflows
++ Cloud-native ML deployment
++ MLOps best practices
+! Advanced NLP and transformers
+- Exploring multimodal AI models
+```
+
+---
+
+## `> cat ./character_sheet.md`
+
+### Attributes
+
+| Stat | Value |
+|------|-------|
+| **Class** | Software Engineer / ML Engineer |
+| **Race** | Human (Caffeine-Powered) |
+| **Alignment** | Chaotic Good |
+| **Strength** | AI/ML Systems, Full Stack Development |
+| **Weakness** | Over-optimizing trivial problems |
+
+### Proficiencies
+- **Problem Solving** - Complex algorithm design and optimization
+- **Code Architecture** - Scalable and maintainable systems
+- **Machine Learning** - From research papers to production
+- **Continuous Learning** - Always exploring new technologies
+
+---
+
+## `> echo $COLLABORATION_STATUS`
+
+```bash
+STATUS="OPEN"
+INTERESTS=("AI/ML Projects" "Open Source" "System Architecture" "Automation")
+RESPONSE_TIME="Usually within 24-48 hours"
+```
+
+**Let's build something intelligent together.**
+
+[![GitHub](https://img.shields.io/badge/Connect_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dtee1)
+
+---
+
+[![Profile Views](https://komarev.com/ghpvc/?username=dtee1&color=00FF41&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/dtee1)
+
+```
+> "Any sufficiently advanced technology is indistinguishable from magic."
+   - Arthur C. Clarke
+```
+
+```
+> "Building the future, one commit at a time."
+```
