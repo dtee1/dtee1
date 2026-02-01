@@ -137,9 +137,6 @@ const projects = ref([
             <a href="https://github.com/dtee1" target="_blank" class="contact-link">
               <span>GitHub</span>
             </a>
-            <a href="mailto:contact@example.com" class="contact-link">
-              <span>Email</span>
-            </a>
           </div>
         </div>
       </div>
