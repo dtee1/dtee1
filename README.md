@@ -120,6 +120,22 @@ When I'm not writing code or training models, you'll find me exploring new techn
 
 ---
 
+## `> cat ./ai_leaders.md`
+
+🚀 **Following the Pioneers of AI**
+
+I actively follow and learn from top researchers, contributors, and companies in the AI space. Check out my curated list:
+
+📋 **[AI Leaders Follow List](AI_LEADERS_FOLLOW_LIST.md)** - Top researchers, contributors & companies in AI
+
+🤖 **Quick Follow Scripts:**
+- `./follow-ai-leaders.sh` - Bash script using GitHub CLI
+- `./follow-ai-leaders.py` - Python script using GitHub API
+
+These scripts help you follow influential figures like Andrej Karpathy, François Chollet, and organizations like OpenAI, Hugging Face, and DeepMind on GitHub.
+
+---
+
 ## `> echo $COLLABORATION_STATUS`
 
 ```bash
