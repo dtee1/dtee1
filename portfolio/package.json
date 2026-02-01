@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:site": "vite build --outDir ../site --base /",
     "preview": "vite preview"
   },
   "dependencies": {
