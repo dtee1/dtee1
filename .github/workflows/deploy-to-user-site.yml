@@ -1,0 +1,52 @@
+name: Build and deploy portfolio to dtee1.github.io
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: ./portfolio
+        run: npm ci
+
+      - name: Build site into ../site
+        working-directory: ./portfolio
+        run: npm run build -- --outDir ../site --base /
+
+      - name: Push built site to dtee1.github.io
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          set -e
+          git --version
+          # Configure git
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Clone (or init) the target repo using the token
+          TARGET_REPO="https://x-access-token:${DEPLOY_TOKEN}@github.com/dtee1/dtee1.github.io.git"
+          if git ls-remote "$TARGET_REPO" >/dev/null 2>&1; then
+            rm -rf site-repo || true
+            git clone --depth 1 "$TARGET_REPO" site-repo || (git clone "$TARGET_REPO" site-repo)
+          else
+            rm -rf site-repo || true
+            git clone "$TARGET_REPO" site-repo || (mkdir site-repo && cd site-repo && git init && git remote add origin "$TARGET_REPO")
+          fi
+
+          # Copy built files, commit, and push
+          rm -rf site-repo/*
+          cp -a site/. site-repo/
+          cd site-repo
+          git add --all
+          git commit -m "Deploy portfolio site from dtee1/dtee1@${GITHUB_SHA}" || echo "No changes to commit"
+          git push --force origin main
