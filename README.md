@@ -59,9 +59,8 @@
 
 ## `> git log --stats`
 
-[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/dtee1?cardType=octocat&theme=dark&fontFamily=&preferLogin=false)](https://git.io/awesome-stats-card)
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/dtee1?cardType=github&theme=merko&fontFamily=&preferLogin=false)](https://git.io/awesome-stats-card)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dtee1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9)](https://github.com/dtee1)
 
 ---
 
@@ -78,27 +77,7 @@
 - Exploring multimodal AI models
 ```
 
----
 
-## `> cat ./character_sheet.md`
-
-### Attributes
-
-| Stat | Value |
-|------|-------|
-| **Class** | Software Engineer / ML Engineer |
-| **Race** | Human (Caffeine-Powered) |
-| **Alignment** | Chaotic Good |
-| **Strength** | AI/ML Systems, Full Stack Development |
-| **Weakness** | Over-optimizing trivial problems |
-
-### Proficiencies
-- **Problem Solving** - Complex algorithm design and optimization
-- **Code Architecture** - Scalable and maintainable systems
-- **Machine Learning** - From research papers to production
-- **Continuous Learning** - Always exploring new technologies
-
----
 
 ## `> echo $COLLABORATION_STATUS`
 
@@ -113,8 +92,6 @@ RESPONSE_TIME="Usually within 24-48 hours"
 [![GitHub](https://img.shields.io/badge/Connect_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dtee1)
 
 ---
-
-[![Profile Views](https://komarev.com/ghpvc/?username=dtee1&color=00FF41&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/dtee1)
 
 ```
 > "Any sufficiently advanced technology is indistinguishable from magic."
