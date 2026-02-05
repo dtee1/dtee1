@@ -20,13 +20,6 @@
 |____/ \__,_| \_/ |_|\__,_|   |_|\__,_|_|___/\___/|_| |_| 
                                               is loading...
 ```
-
-I'm a **Software Engineer** with a passion for building intelligent systems and solving complex problems through code and machine learning. My current focus? Creating **AI-powered applications** that leverage machine learning to deliver real-world solutions.
-
-When I'm not writing code or training models, you'll find me exploring new technologies, optimizing algorithms, or diving deep into the latest ML research.
-
-**Current Quest:** Building intelligent systems that bridge the gap between human intuition and machine precision.
-
 ---
 
 ## `> cat ./tech_stack.json`
@@ -61,19 +54,6 @@ When I'm not writing code or training models, you'll find me exploring new techn
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
----
-
-## `> cat ./expertise.md`
-
-### Technical Skills
-
-| Domain | Technologies |
-|--------|-------------|
-| **Machine Learning** | Neural Networks, NLP, Object Detection |
-| **Software Development** | Data Structures & Algorithms, OOP, REST APIs |
-| **Test Automation** | CI/CD, Jenkins, Test Frameworks |
-| **Engineering Tools** | MATLAB, Simulink |
 
 ---
 
