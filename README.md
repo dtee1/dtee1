@@ -59,7 +59,7 @@
 
 ## `> git log --stats`
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dtee1&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9)](https://github.com/dtee1)
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/dtee1?cardType=octocat&theme=dark&fontFamily=&preferLogin=false)](https://git.io/awesome-stats-card)
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dtee1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9)](https://github.com/dtee1)
 
