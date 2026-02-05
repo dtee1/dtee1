@@ -10,16 +10,6 @@
 
 ---
 
-## `> whoami`
-
-```
- ____              _     _   _____       _                  
-|  _ \  __ ___   _(_) __| | |_   _|__ _| |___  ___  _ __   
-| | | |/ _` \ \ / / |/ _` |   | |/ _` | / __|/ _ \| '_ \  
-| |_| | (_| |\ V /| | (_| |   | | (_| | \__ \ (_) | | | | 
-|____/ \__,_| \_/ |_|\__,_|   |_|\__,_|_|___/\___/|_| |_| 
-                                              is loading...
-```
 ---
 
 ## `> cat ./tech_stack.json`
@@ -33,27 +23,6 @@
   "engineering": ["MATLAB", "Simulink"]
 }
 ```
-
-### Core Competencies
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-### AI/ML Stack
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-
-### Development Tools
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
 ---
 
