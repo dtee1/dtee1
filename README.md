@@ -10,6 +10,18 @@
 
 ---
 
+## `> ls ./projects`
+
+### 🤖 [Polymarket Trading Bot](./polymarket-bot)
+A powerful automated trading bot for Polymarket prediction markets. Features include:
+- **Automated Buy/Sell**: Execute trades programmatically on Polymarket
+- **Market Analysis**: Real-time order book and market data
+- **Position Management**: Track positions and P&L
+- **Trading Strategies**: Implement custom strategies (market-making, arbitrage, etc.)
+- **Secure**: Web3 wallet integration with private key management
+
+[View Project →](./polymarket-bot/README.md)
+
 ---
 
 ## `> cat ./tech_stack.json`
@@ -19,6 +31,7 @@
   "languages": ["Python", "JavaScript", "C++", "Shell"],
   "ai_ml": ["PyTorch", "TensorFlow", "Keras", "NLP", "Computer Vision"],
   "web_dev": ["Vue.js", "Flask", "REST APIs"],
+  "blockchain": ["Ethers.js", "Web3", "Polygon", "Smart Contracts"],
   "tools": ["Docker", "Git", "Linux", "Jenkins", "Jira"],
   "engineering": ["MATLAB", "Simulink"]
 }
