@@ -1,3 +1,10 @@
 # Build output directories
 site/
 site-repo/
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local

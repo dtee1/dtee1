@@ -1,0 +1,26 @@
+{
+  "name": "polymarket-trading-bot",
+  "version": "1.0.0",
+  "description": "A trading bot for Polymarket that can buy and sell positions",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "example": "node examples/basic-trading.js",
+    "test": "node tests/bot.test.js"
+  },
+  "keywords": [
+    "polymarket",
+    "trading",
+    "bot",
+    "prediction-markets",
+    "crypto"
+  ],
+  "author": "David Talson",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {}
+}
