@@ -12,20 +12,6 @@
 
 ---
 
-## `> cat ./tech_stack.json`
-
-```json
-{
-  "languages": ["Python", "JavaScript", "C++", "Shell"],
-  "ai_ml": ["PyTorch", "TensorFlow", "Keras", "NLP", "Computer Vision"],
-  "web_dev": ["Vue.js", "Flask", "REST APIs"],
-  "tools": ["Docker", "Git", "Linux", "Jenkins", "Jira"],
-  "engineering": ["MATLAB", "Simulink"]
-}
-```
-
----
-
 ## `> git log --stats`
 
 [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/dtee1?cardType=github&theme=merko&fontFamily=&preferLogin=false)](https://git.io/awesome-stats-card)
